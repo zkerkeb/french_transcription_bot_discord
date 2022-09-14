@@ -1,0 +1,9 @@
+secret.js
+node_modules
+.env
+movies
+archive
+moviesTest
+gspeech_key.json
+
+moviesAll

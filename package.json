@@ -5,11 +5,6 @@
   "main": "index.js",
   "scripts": {
     "start": "node --experimental-modules src/index.js",
-    "delete": "node --experimental-modules src/delete.js",
-    "colors": "node --experimental-modules src/colorsToDatabase.js",
-    "get": "node --experimental-modules src/get.js",
-    "populate": "node --experimental-modules src/populate.js",
-    "reinstallColor": "yarn remove color-namer && yarn add https://github.com/zkerkeb/color-namer.git ",
     "env:prod": "cp .env.prod .env",
     "env:dev": "cp .env.dev .env",
     "dev": "nodemon --experimental-json-modules src/index.js"
@@ -21,9 +16,10 @@
     "@babel/core": "^7.11.6",
     "@babel/node": "^7.10.5",
     "@babel/preset-env": "^7.11.5",
+    "@discordjs/voice": "^0.11.0",
     "axios": "^0.20.0",
-    "color-namer": "https://github.com/zkerkeb/color-namer.git",
     "cron": "^1.8.2",
+    "discord.js": "^14.3.0",
     "dotenv": "^8.2.0",
     "get-image-colors": "^4.0.1",
     "nodemon": "^2.0.12",
